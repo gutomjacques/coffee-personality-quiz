@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --bg-start: #F5ECD7;
+  --bg-end: #E8D5B7;
+  --card-bg: #FFFDF8;
+  --brown: #6B4226;
+  --caramel: #A0714F;
+  --caramel-light: #C9956A;
+  --text-primary: #3D2B1F;
+  --text-secondary: #7A5C45;
+}
+
+body {
+  background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-end) 100%);
+  min-height: 100vh;
+  color: var(--text-primary);
+}
